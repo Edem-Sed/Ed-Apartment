@@ -1,6 +1,6 @@
 *{
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
 }
 
 nav{
@@ -11,13 +11,15 @@ nav{
     color: black;
     height: 10%;
     background-color: white;
-    background: white;
     position: fixed;
     left: 0;
     right: 0;
 
 }
 
+nav a{
+    text-decoration: none;
+}
 nav ul {
     display: flex;
     justify-content: space-around;
@@ -39,7 +41,8 @@ header{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
+    height: 100vh; 
+    width: 100%;
 }
 .hero{
     display: flex;
@@ -74,14 +77,90 @@ header{
     gap: 40px;
 }
 
-.bowl{
+.bowl:hover{
      width: 80%;
     margin: 90px auto;
+    
 }
 
 .room{
     margin-bottom: 40px;
 }
+.about{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+    font-size: 50px;
+    font-style: italic;
+}
+.us{
+    /* margin: 20% auto; */
+    /* width: 50%; */
+}
+.cup{
+    width: 80%;
+    margin: 0 auto;
+}
+.cup p{
+    display: flex;
+    flex-direction: row;
+
+}
+.pic{
+    width: 80%;
+    margin: 10px auto;
+    gap: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}.about p{
+    justify-content: space-around;
+    display: flex;
+    word-wrap: normal;
+    width: 22%;
+    text-align: center;
+}
+.about-line{
+    display: flex;
+    justify-content: center;
+    word-wrap: normal;
+    
+
+}
+.man{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-style: italic;
+    margin-bottom: 2%;
+}
+.wrap{
+    word-wrap: normal;
+    width: 22%;
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+   
+}
+.about-us{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 0 auto; */
+    /* width: 30px; */
+    
+
+}
+
+footer{
+    background: fixed;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 50px;
+    
+}
+
 
 
 
